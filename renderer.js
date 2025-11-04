@@ -1,7 +1,12 @@
 import { gsap } from 'https://cdn.jsdelivr.net/npm/gsap@3.12.2/index.min.js';
-import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.174.0/three.module.js'
-import { GLTFLoader } from 'https://unpkg.com/three@0.152.2/examples/jsm/loaders/GLTFLoader';
-import { OrbitControls } from 'https://unpkg.com/three@0.157.0/build/three/addons/controls/OrbitControls.js';
+
+import * as THREE from 'https://esm.sh/three@0.157.0';
+
+import { GLTFLoader } from 'https://esm.sh/three@0.152.2/examples/jsm/loaders/GLTFLoader';
+
+import { OrbitControls } from 'https://esm.sh/three@0.157.0/examples/jsm/controls/OrbitControls';
+
+
 import { EffectComposer } from 'https://unpkg.com/three@0.157.0/build/three/examples/jsm/postprocessing/EffectComposer.js';
 import { RenderPass} from 'https://unpkg.com/three@0.157.0/build/three/examples/jsm/postprocessing/RenderPass.js';
 import { UnrealBloomPass } from 'https://unpkg.com/three@0.157.0/build/three/addons/postprocessing/UnrealBloomPass.js';
