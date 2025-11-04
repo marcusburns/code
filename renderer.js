@@ -7,10 +7,11 @@ import { GLTFLoader } from 'https://esm.sh/three@0.152.2/examples/jsm/loaders/GL
 import { OrbitControls } from 'https://esm.sh/three@0.157.0/examples/jsm/controls/OrbitControls';
 
 
-import { EffectComposer } from 'https://unpkg.com/three@0.157.0/build/three/examples/jsm/postprocessing/EffectComposer.js';
-import { RenderPass} from 'https://unpkg.com/three@0.157.0/build/three/examples/jsm/postprocessing/RenderPass.js';
-import { UnrealBloomPass } from 'https://unpkg.com/three@0.157.0/build/three/addons/postprocessing/UnrealBloomPass.js';
-import { OutputPass } from 'https://unpkg.com/three@0.157.0/build/three/examples/jsm/Addons.js';
+import { EffectComposer } from 'https://esm.sh/three@0.152.2/examples/jsm/postprocessing/EffectComposer';
+import { RenderPass } from 'https://esm.sh/three@0.152.2/examples/jsm/postprocessing/RenderPass';
+import { UnrealBloomPass } from 'https://esm.sh/three@0.152.2/examples/jsm/postprocessing/UnrealBloomPass';
+import { OutputPass } from 'https://esm.sh/three@0.152.2/examples/jsm/postprocessing/OutputPass';
+
 
 import { toggleSpin } from './toggleSpin.js';
 import { applyLighting } from './lighting/cinematicThreePoint.js';
