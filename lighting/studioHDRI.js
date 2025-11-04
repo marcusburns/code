@@ -1,5 +1,5 @@
 import * as THREE from 'https://esm.sh/three@0.157.0';
-import { RGBELoader } from 'https://unpkg.com/three@0.126.1/examples/jsm/loaders/RGBELoader.js';
+import { RGBELoader } from 'https://esm.sh/three@0.152.2/examples/jsm/loaders/RGBELoader.js;
 
 const hdrTextureURL = new URL('hdr/studio_small_09_4k.hdr', import.meta.url);
 
