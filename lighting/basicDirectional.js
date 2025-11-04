@@ -1,4 +1,4 @@
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.module.js';
+import * as THREE from 'https://esm.sh/three@0.157.0';
 
 export function applyLighting(scene, renderer) {
   const light = new THREE.DirectionalLight(0xffffff, 1.5);
