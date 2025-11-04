@@ -10,7 +10,7 @@ import { OrbitControls } from 'https://esm.sh/three@0.157.0/examples/jsm/control
 import { EffectComposer } from 'https://esm.sh/three@0.152.2/examples/jsm/postprocessing/EffectComposer';
 import { RenderPass } from 'https://esm.sh/three@0.152.2/examples/jsm/postprocessing/RenderPass';
 import { UnrealBloomPass } from 'https://esm.sh/three@0.152.2/examples/jsm/postprocessing/UnrealBloomPass';
-import { OutputPass } from 'https://esm.sh/three@0.152.2/examples/jsm/postprocessing/OutputPass';
+import { OutputPass } from 'https://threejs.org/examples/jsm/postprocessing/OutputPass.js';
 
 
 import { toggleSpin } from './toggleSpin.js';
