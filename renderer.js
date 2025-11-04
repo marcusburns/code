@@ -1,4 +1,4 @@
-
+import { gsap } from 'https://esm.sh/gsap@3.12.2';
 import * as THREE from 'https://esm.sh/three@0.157.0';
 import { GLTFLoader } from 'https://esm.sh/three@0.157.0/examples/jsm/loaders/GLTFLoader.js';
 import { OrbitControls } from 'https://esm.sh/three@0.157.0/examples/jsm/controls/OrbitControls.js';
