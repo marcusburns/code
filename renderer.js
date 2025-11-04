@@ -1,11 +1,11 @@
 import { gsap } from 'https://cdn.jsdelivr.net/npm/gsap@3.12.2/index.min.js';
 import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.174.0/three.module.js'
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
-import { RenderPass} from 'three/examples/jsm/postprocessing/RenderPass.js';
-import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
-import { OutputPass } from 'three/examples/jsm/Addons.js';
+import { GLTFLoader } from 'https://unpkg.com/three@0.152.2/examples/jsm/loaders/GLTFLoader';
+import { OrbitControls } from 'https://unpkg.com/three@0.157.0/build/three/addons/controls/OrbitControls.js';
+import { EffectComposer } from 'https://unpkg.com/three@0.157.0/build/three/examples/jsm/postprocessing/EffectComposer.js';
+import { RenderPass} from 'https://unpkg.com/three@0.157.0/build/three/examples/jsm/postprocessing/RenderPass.js';
+import { UnrealBloomPass } from 'https://unpkg.com/three@0.157.0/build/three/addons/postprocessing/UnrealBloomPass.js';
+import { OutputPass } from 'https://unpkg.com/three@0.157.0/build/three/examples/jsm/Addons.js';
 
 import { toggleSpin } from './toggleSpin.js';
 import { applyLighting } from './lighting/cinematicThreePoint.js';
