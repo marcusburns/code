@@ -47,8 +47,8 @@ const bloomPass = new UnrealBloomPass(
 
 composer.addPass(bloomPass);
 
-const outputPass = new OutputPass();
-composer.addPass(outputPass);
+//const outputPass = new OutputPass();
+//composer.addPass(outputPass);
 
 let glowTweens = new Map(); // Keep track to stop animations later
 
