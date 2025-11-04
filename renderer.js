@@ -1,4 +1,4 @@
-import { gsap } from 'https://cdn.jsdelivr.net/npm/gsap@3.12.2/index.min.js';
+import { gsap } from 'https://esm.sh/gsap@3.12.2';
 
 import * as THREE from 'https://esm.sh/three@0.157.0';
 
